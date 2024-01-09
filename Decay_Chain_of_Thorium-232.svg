@@ -1,0 +1,325 @@
+<!--Uploaded to Wikimedia Commons by User:ThaLibster under the CC BY-SA 4.0 license-->
+<svg width="1310" height="2020" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <style type="text/css"><![CDATA[
+  
+  tspan {font-family: DejaVu Sans Condensed, sans-serif; font-size:25px}
+  .symbol {font-family: DejaVu Sans Condensed, sans-serif; font-size:90px; font-weight:bold; stroke: none}
+  .su {font-size: 32px; font-family: DejaVu Sans Condensed, sans-serif; text-anchor:end; letter-spacing:-3px}
+  .halflife {font-size: 32px; font-family: DejaVu Sans Condensed, sans-serif; text-anchor:middle; font-size: 30px}
+  
+  circle {stroke-width:7.0}
+  .alpha_arrow {fill: red; stroke: red; stroke-width: 3.5; marker-end:url(#alpha_arrow_head)}
+  .beta_arrow {fill: blue; stroke: blue; stroke-width: 3.5; marker-end:url(#beta_arrow_head)}
+  .halflife_stable {stroke: black}
+  .halflife_primordial {stroke: #779DFE}
+  .halflife_years {stroke: #A4AFDC}
+  .halflife_days {stroke: #D0BEB4}
+  .halflife_hours {stroke: #E8C399}
+  .halflife_minutes {stroke: #FEA116}
+  .halflife_seconds {stroke: #FF7D01}
+  .halflife_instant {stroke: #FE4101}
+  .nonmetal {fill: url(#nonmetal)}
+  .noblegas {fill: url(#noblegas)}
+  .alkali {fill:url(#alkali)}
+  .alkaline {fill:url(#alkaline)}
+  .metalloid {fill:url(#metalloid)}
+  .halogen {fill:url(#halogen)}
+  .posttransition {fill:url(#posttransition)}
+  .lanthanide {fill:url(#lanthanide)}
+  .actinide {fill: url(#actinide)}
+  .transition {fill: url(#transition)}
+  .ab {font-family: Liberation Sans, sans-serif; font-style:italic; font-size:40px}
+  .bkg0 {stroke: none; fill: #ffffff}
+  .bkg1 {stroke: none; fill: #f5f5f5}
+  .SideKey {fill: #555555; font-family: DejaVu Sans Light, sans-serif; font-size: 40px; text-anchor: end}
+  .key {font-family: DejaVu Sans Light, sans-serif; font-size: 25px}
+  ]]></style>
+
+  <rect id="bkg0" width="1290" height="200" class="bkg0"/>
+  <rect id="bkg1" width="1290" height="200" class="bkg1"/>
+
+  <!--no way to define the same elements in different colors with code reuse-->
+  <marker id="alpha_arrow_head" refX="0" refY="0" orient="auto" style="overflow:visible">
+    <path d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" transform="scale(-1,-1)" id="path4011" style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:red"/>
+  </marker>
+  <marker id="beta_arrow_head" refX="0" refY="0" orient="auto" style="overflow:visible">
+    <path d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" transform="scale(-1,-1)" id="path4011" style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:blue"/>
+  </marker>
+
+  <line id="alpha_arrow" x1="100" y1="200" x2="100" y2="393" class="alpha_arrow"/>
+  <line id="beta_arrow" x1="170.7" y1="29.3" x2="224" y2="-24" class="beta_arrow"/>
+
+  <text id="alpha" class="ab" fill="red" x="115" y="310">α</text>
+  <text id="beta" class="ab" fill="blue" x="200" y="50">β⁻</text>
+
+  <circle id="nuclide" cx="100" cy="100" r="96.5"/>
+  <rect id="legend_icon" x="0" y="0" width="40" height="40"/>
+
+  <radialGradient id="ball" fx="75%" fy="25%">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="grey"/>
+  </radialGradient>
+  <linearGradient id="blackbody1" x1="0%" x2="0%" y1="0%" y2="100%">
+    <stop offset="0%" stop-color="#769CFD"/>
+    <stop offset="100%" stop-color="#FEAC25"/>
+  </linearGradient>
+  <linearGradient id="blackbody2" x1="0%" x2="0%" y1="0%" y2="100%">
+    <stop offset="0%" stop-color="#FEAC25"/>
+    <stop offset="100%" stop-color="#FF4001"/>
+  </linearGradient>
+  <radialGradient id="actinide" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#add5ff"/>
+  </radialGradient>
+  <radialGradient id="nonmetal" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#a0ffa0"/>
+  </radialGradient>
+  <radialGradient id="noblegas" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#c0ffff"/>
+  </radialGradient>
+  <radialGradient id="alkali" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#ff6666"/>
+  </radialGradient>
+  <radialGradient id="alkaline" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#ffdead"/>
+  </radialGradient>
+  <radialGradient id="metalloid" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#cccc99"/>
+  </radialGradient>
+  <radialGradient id="halogen" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#ffff99"/>
+  </radialGradient>
+  <radialGradient id="posttransition" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#cccccc"/>
+  </radialGradient>
+  <radialGradient id="lanthanide" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#ffbfff"/>
+  </radialGradient>
+  <radialGradient id="transition" xlink:href="#ball">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="100%" stop-color="#ffc0c0"/>
+  </radialGradient>
+</defs>
+
+<!--SVG2 isn't implemented anywhere at the time of writing this code, so we have to
+     define the bkg elements first in the code-->
+<g transform="translate(10,10)">
+<use xlink:href="#bkg0"/>
+<text x="1290" y="190" class="SideKey">Thorium</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg1"/>
+<text x="1290" y="190" class="SideKey">Actinium</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg0"/>
+<text x="1290" y="190" class="SideKey">Radium</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg1"/>
+<text x="1290" y="190" class="SideKey">Francium</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg0"/>
+<text x="1290" y="190" class="SideKey">Radon</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg1"/>
+<text x="1290" y="190" class="SideKey">Astatine</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg0"/>
+<text x="1290" y="190" class="SideKey">Polonium</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg1"/>
+<text x="1290" y="190" class="SideKey">Bismuth</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg0"/>
+<text x="1290" y="190" class="SideKey">Lead</text>
+
+<g transform="translate(0,200)">
+<use xlink:href="#bkg1"/>
+<text x="1290" y="190" class="SideKey">Thallium</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g><!--back to (10,10)-->
+
+<!--Define all the nuclides, arrows, and alpha and beta labels-->
+<!--It would be really nice to have templated element functionality so I don't
+     have to repeat all of the attributes in the text definitions-->
+<use xlink:href="#nuclide" class="actinide halflife_primordial"/>
+<text>
+    <tspan x="73" y="115" class="su">90</tspan><tspan x="73" dy="-40" class="su">232</tspan><tspan x="73" dy="42" class="symbol">Th</tspan><tspan x="100" dy="1.4em" class="halflife">1.4e10 y</tspan>
+</text>
+<use xlink:href="#alpha_arrow"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(0,400)">
+<use xlink:href="#nuclide" class="alkaline halflife_years"/>
+<text>
+    <tspan x="73" y="115" class="su">88</tspan><tspan x="73" dy="-40" class="su">228</tspan><tspan x="73" dy="42" class="symbol">Ra</tspan><tspan x="100" dy="1.4em" class="halflife">5.7 y</tspan>
+</text>
+<use xlink:href="#beta_arrow"/>
+<use xlink:href="#beta"/>
+
+<g transform="translate(200,-200)">
+<use xlink:href="#nuclide" class="actinide halflife_hours"/>
+<text>
+    <tspan x="73" y="115" class="su">89</tspan><tspan x="73" dy="-40" class="su">228</tspan><tspan x="73" dy="42" class="symbol">Ac</tspan><tspan x="100" dy="1.4em" class="halflife">6.1 h</tspan>
+</text>
+<use xlink:href="#beta_arrow"/>
+<use xlink:href="#beta"/>
+
+<g transform="translate(200,-200)">
+<use xlink:href="#nuclide" class="actinide halflife_years"/>
+<text>
+    <tspan x="73" y="115" class="su">90</tspan><tspan x="73" dy="-40" class="su">228</tspan><tspan x="73" dy="42" class="symbol">Th</tspan><tspan x="100" dy="1.4em" class="halflife">1.9 y</tspan>
+</text>
+<use xlink:href="#alpha_arrow"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(0,400)">
+<use xlink:href="#nuclide" class="alkaline halflife_days"/>
+<text>
+    <tspan x="73" y="115" class="su">88</tspan><tspan x="73" dy="-40" class="su">224</tspan><tspan x="73" dy="42" class="symbol">Ra</tspan><tspan x="100" dy="1.4em" class="halflife">3.6 d</tspan>
+</text>
+<use xlink:href="#alpha_arrow"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(0,400)">
+<use xlink:href="#nuclide" class="noblegas halflife_seconds"/>
+<text>
+    <tspan x="73" y="115" class="su">86</tspan><tspan x="73" dy="-40" class="su">220</tspan><tspan x="73" dy="42" class="symbol">Rn</tspan><tspan x="100" dy="1.4em" class="halflife">55 s</tspan>
+</text>
+<use xlink:href="#alpha_arrow"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(0,400)">
+<use xlink:href="#nuclide" class="metalloid halflife_seconds"/>
+<text>
+    <tspan x="73" y="115" class="su">84</tspan><tspan x="73" dy="-40" class="su">216</tspan><tspan x="73" dy="42" class="symbol">Po</tspan><tspan x="100" dy="1.4em" class="halflife">0.14 s</tspan>
+</text>
+<use xlink:href="#alpha_arrow"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(0,400)">
+<use xlink:href="#nuclide" class="posttransition halflife_hours"/>
+<text>
+    <tspan x="73" y="115" class="su">82</tspan><tspan x="73" dy="-40" class="su">212</tspan><tspan x="73" dy="42" class="symbol">Pb</tspan><tspan x="100" dy="1.4em" class="halflife">11 h</tspan>
+</text>
+<use xlink:href="#beta_arrow"/>
+<use xlink:href="#beta"/>
+
+<g transform="translate(200,-200)">
+<use xlink:href="#nuclide" class="posttransition halflife_minutes"/>
+<text>
+    <tspan x="73" y="115" class="su">83</tspan><tspan x="73" dy="-40" class="su">212</tspan><tspan x="73" dy="42" class="symbol">Bi</tspan><tspan x="100" dy="1.4em" class="halflife">61 min</tspan>
+</text>
+<use xlink:href="#beta_arrow" opacity="0.8"/>
+<use xlink:href="#beta"/>
+<text style="font-size: 22px; font-family: DejaVu Sans Condensed, sans-serif; letter-spacing:-3px" fill="blue" x="200" y="90">64.05%</text>
+<text style="font-size: 22px; font-family: DejaVu Sans Condensed, sans-serif; letter-spacing:-3px" fill="red" x="115" y="250">35.94%</text>
+<use xlink:href="#alpha_arrow" opacity="0.6"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(200,-200)">
+<use xlink:href="#nuclide" class="metalloid halflife_instant"/>
+<text>
+	<tspan x="73" y="115" class="su">84</tspan><tspan x="73" dy="-40" class="su">212</tspan><tspan x="73" dy="42" class="symbol">Po</tspan><tspan x="100" dy="1.4em" class="halflife">0.3 μs</tspan>
+</text>
+<use xlink:href="#alpha_arrow"/>
+<use xlink:href="#alpha"/>
+
+<g transform="translate(0,400)">
+<use xlink:href="#nuclide" class="posttransition halflife_stable"/>
+<text>
+	<tspan x="73" y="115" class="su">82</tspan><tspan x="73" dy="-40" class="su">208</tspan><tspan x="73" dy="42" class="symbol">Pb</tspan><tspan x="100" dy="1.4em" class="halflife">Stable</tspan>
+</text>
+
+<g transform="translate(-200,200)">
+<use xlink:href="#nuclide" class="posttransition halflife_minutes"/>
+<text>
+	<tspan x="73" y="115" class="su">81</tspan><tspan x="73" dy="-40" class="su">208</tspan><tspan x="73" dy="42" class="symbol">Tl</tspan><tspan x="100" dy="1.4em" class="halflife">3.1 min</tspan>
+</text>
+<use xlink:href="#beta_arrow"/>
+<use xlink:href="#beta"/>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g><!--back to (10,10)-->
+
+<g transform="translate(0,1400)">
+<rect width="340" height="200" style="fill: white; stroke: black; stroke-width: 2px"/>
+<g transform="translate(10,10)">
+<rect width="40" height="90" fill="url(#blackbody1)"/>
+<rect y="90" width="40" height="90" fill="url(#blackbody2)"/>
+<g transform="translate(50,0)">
+<text y="30" class="key">More stable</text>
+<text y="170" class="key">Less stable</text>
+</g>
+</g>
+</g><!--back to (10,10)-->
+
+<g transform="translate(0,1650)">
+<rect width="340" height="340" style="fill: white; stroke: black; stroke-width: 2px"/>
+<g transform="translate(10,10)">
+<use xlink:href="#legend_icon" class="actinide"/>
+<text x="50" y="30" class="key">Actinide</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="alkali"/>
+<text x="50" y="30" class="key">Alkali Metal</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="alkaline"/>
+<text x="50" y="30" class="key">Alkaline Earth Metal</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="halogen"/>
+<text x="50" y="30" class="key">Halogen</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="metalloid"/>
+<text x="50" y="30" class="key">Metalloid</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="noblegas"/>
+<text x="50" y="30" class="key">Noble Gas</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="posttransition"/>
+<text x="50" y="30" class="key">Post-transition Metal</text>
+<g transform="translate(0,40)">
+<use xlink:href="#legend_icon" class="transition"/>
+<text x="50" y="30" class="key">Transition Metal</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g><!--back to (10,10)-->
+</g>
+</svg>
